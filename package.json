@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "cypress": "cypress open",
+    "cypress:headless": "cypress run",
+    "test:e2e": "start-server-and-test dev http://localhost:3000 cypress",
+    "test:e2e:headless": "start-server-and-test dev http://localhost:3000 cypress:headless"
+  },
+  "devDependencies": {
+    "start-server-and-test": "^2.0.11"
+  }
+}
